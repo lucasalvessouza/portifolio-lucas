@@ -20,8 +20,8 @@ html {
   font-family: Poppins, sans-serif;
   background: #191919;
   color: #fff;
-  /*max-width: 70%;*/
   margin: auto;
+  scroll-behavior: smooth;
 }
 
 /*
