@@ -287,7 +287,7 @@ li > a {
 
 #home {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 100px 0 0;
 }
@@ -295,9 +295,10 @@ li > a {
 #home > h1 {
   color: #D9D9D9;
   font-size: 58px;
-  max-width: 50%;
+  /*max-width: 50%;*/
   font-weight: 700;
   line-height: 70px;
+  text-align: justify;
 }
 
 #home > img {
