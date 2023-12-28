@@ -18,7 +18,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   font-family: Poppins, sans-serif;
-  background: #191919;
+  background-image: linear-gradient(to right,black,#1b263b,#415a77);
   color: #fff;
   margin: auto;
   scroll-behavior: smooth;
@@ -374,7 +374,7 @@ span {
 }
 .icon {
   display: flex;
-  background: linear-gradient(to right, #191919 45%, #b1dcf5 45%, #b1dcf5 45%, #191919 50%);
+  background: linear-gradient(to right, transparent 45%, #b1dcf5 45%, #b1dcf5 45%, transparent 50%);
   order: 2;
   text-align: center;
   color: #fff;
@@ -399,6 +399,7 @@ span {
   order: 3;
   background: #fff;
   transition: all .6s ease;
+  box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
 }
 .info {
   margin-bottom: 3%;
